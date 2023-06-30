@@ -43,12 +43,16 @@ public class client {
     public String getAdvisorId() {
         return advisorId;
     }
-
+    
+ public void setAdvisorId(List AdvisorId) {
+      this.advisorId = AdvisorId;
+   }
+    
     public String getName() {
         return name;
     }
 
-    public void setFirstName(String name) {
+    public void setName(String name) {
         this.name = name;
     }    
   
